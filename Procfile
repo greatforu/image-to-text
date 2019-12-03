@@ -1,1 +1,1 @@
-web: gunicorn image2textdjangoapp.wsgi --log-file -
+web: gunicorn app:app --log-file=-
